@@ -9,7 +9,7 @@
 -- The handlers are based on the OpenResty handlers, see the OpenResty docs for details
 -- on when exactly they are invoked and what limitations each handler has.
 ---------------------------------------------------------------------------------------------
-
+require "socket.url"
 
 
 local plugin = {
